@@ -1,0 +1,25 @@
+{
+    "name": "recruiter/common-bundle",
+    "type": "symfony-bundle",
+    "description": "Common functionality which bridges recruiter/recruit-bundle and recruiter-employer-bundle.",
+    "keywords": ["recruiter", "bundle"],
+    "homepage": "https://github.com/mikedhart/RecruiterCommonBundle.git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mike Hart",
+            "email": "info@mikedhart.co.uk"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "require-dev": {
+        "symfony/framework-bundle": ">=2.1,<2.2-dev"
+    },
+    "autoload": {
+        "psr-0": { "Recruiter\\CommonBundle": "" }
+    },
+    "minimum-stability": "dev",
+    "target-dir": "Recruiter/CommonBundle"
+}
